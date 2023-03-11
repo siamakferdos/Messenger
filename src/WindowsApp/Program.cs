@@ -1,4 +1,6 @@
 using System.Diagnostics;
+using System.Windows.Forms.Design;
+using WindowsApp.MessageBroker;
 
 namespace WindowsApp
 {
@@ -28,7 +30,7 @@ namespace WindowsApp
             }
         }
 
-        static void CreateInstance(String arg)
+        static void CreateInstance(string arg)
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

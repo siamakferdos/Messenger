@@ -1,7 +1,11 @@
+using WebMessenger.Sockets;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddSingleton<IWebSocketService, WebSocketService>();
 
 var app = builder.Build();
 
@@ -13,6 +17,8 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseWebSockets();
 
 app.UseAuthorization();
 

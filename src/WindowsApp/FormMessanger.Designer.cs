@@ -42,6 +42,7 @@
             button1.TabIndex = 0;
             button1.Text = "Send";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // txtMessage
             // 
@@ -80,6 +81,7 @@
             Controls.Add(button1);
             Name = "FormMessanger";
             Text = "Form1";
+            FormClosing += FormMessanger_FormClosing;
             ResumeLayout(false);
             PerformLayout();
         }

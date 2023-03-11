@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsApp", "src\WindowsAp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{D043C340-3E9E-477F-B1D0-5618BB318421}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBroker", "src\MessageBroker\MessageBroker.csproj", "{C51CE8F4-E1FE-4959-8F0D-1AE9CD9EA643}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{70F9CB63-8757-4673-A5CB-2A178149F1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70F9CB63-8757-4673-A5CB-2A178149F1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70F9CB63-8757-4673-A5CB-2A178149F1EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51CE8F4-E1FE-4959-8F0D-1AE9CD9EA643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51CE8F4-E1FE-4959-8F0D-1AE9CD9EA643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51CE8F4-E1FE-4959-8F0D-1AE9CD9EA643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51CE8F4-E1FE-4959-8F0D-1AE9CD9EA643}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
